@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env files & secrets — never commit
+.env
+.env*
+*.pem
+*.key
+
+# raw Claude Design handoff bundle (contains unoptimised source images)
+design-systems-for-dental-clinic-website/
+
+# local tooling
+.claude/
+.vercel/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+lighthouse/
